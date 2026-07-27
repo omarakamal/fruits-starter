@@ -16,3 +16,9 @@ rm README.md
 MONGODB_URI=your-connection-string
 
 ```
+
+
+4. run `npm i` in your terminal
+```
+npm i
+```
