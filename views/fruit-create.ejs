@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%- include('./partials/navbar') %>
+    <h1>Create Fruit</h1>
+
+    <form action="/fruits" method="post">
+        <label for="name">Name:</label>
+        <input name="name" id="name" type="text">
+
+        <label for="isReadyToEat">Is it ready to eat?</label>
+        <input name="isReadyToEat" id="isReadyToEat" type="checkbox">
+
+          <label for="category">Is it ready to eat?</label>
+        <input name="category" id="category" type="text">
+
+        <button type="submit">Create Fruit</button>
+    </form>
+</body>
+</html>

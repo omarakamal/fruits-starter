@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Edit fruit</h1>
+
+    <form action="/fruits/<%= fruit._id %>?_zaid=PUT" method="post">
+        <label for="name">Name:</label>
+        <input value="<%= fruit.name %>" name="name" id="name" type="text">
+
+        <label for="isReadyToEat">Is it ready to eat?</label>
+        <input <% if(fruit.isReadyToEat){ %> checked <% }%> name="isReadyToEat" id="isReadyToEat" type="checkbox">
+
+        <button type="submit">Edit Fruit</button>
+    </form>
+</body>
+</html>
