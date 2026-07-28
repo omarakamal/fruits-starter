@@ -8,9 +8,6 @@ const fruitSchema = new mongoose.Schema({
     },
     isReadyToEat:{
         type: Boolean
-    },
-    category:{
-        type: String
     }
 })
 
