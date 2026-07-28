@@ -5,7 +5,7 @@
 
 2. clone the project with the following command:
 ```bash
-git clone https://github.com/omarakamal/fruits-starter.git
+git clone https://github.com/omarakamal/fruits-starter.git .
 rm -rf .git
 rm README.md
 ```
