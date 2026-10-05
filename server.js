@@ -5,7 +5,7 @@ const dotenv = require("dotenv").config() //this allows me to use my .env values
 const mongoose = require("mongoose")
 const methodOverride = require('method-override')
 const morgan = require('morgan')
-const fruitController = require('./controllers/fruits.controller')
+const fruitController = require('./routes/fruits.routes')
 
 
 
